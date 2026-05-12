@@ -10,7 +10,7 @@ main()
 	printf("Enter your height : ");
 	scanf("%f",&height);
 	
-	float BMI = weight/(height*height)*703;
+	float BMI = weight/(height*height);
 	
 	if(BMI < 18.5)
 	{
